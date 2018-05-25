@@ -1,3 +1,4 @@
+require('dotenv').config();
 //require express
 const express = require('express');
 //invoke express
