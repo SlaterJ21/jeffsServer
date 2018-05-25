@@ -7,7 +7,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 //serve up static
-app.use(express.static('public');
+app.use(express.static('public'));
 //api get route
 app.get('/api', function(req, res, send){
   app.send('Hello from API');
